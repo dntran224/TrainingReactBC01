@@ -6,6 +6,9 @@ import DataBinding from './DataBinding/DataBinding';
 import RenderWithMap from './RenderWithMap/RenderWithMap'
 import BaiTapRenderMap from './RenderWithMap/BaiTapRenderMap'
 import DemoProps from './Props/DemoProps'
+import BTProductList from './components/BaiTapLayout/BTProductList'
+import DemoQLSP from "./Props/DemoQLSP/DemoQLSP";
+
 
 function App() {
   return (
@@ -13,7 +16,9 @@ function App() {
       {/* <DataBinding /> */}
       {/* <RenderWithMap /> */}
       {/* <BaiTapRenderMap /> */}
-      <DemoProps />
+      {/* <DemoProps /> */}
+      {/* <BTProductList /> */}
+      <DemoQLSP /> 
     </div>
   );
 }
